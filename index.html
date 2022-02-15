@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+
+ <!-- Font-awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+ <!-- google fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Fira+Sans&family=Handlee&family=Italianno&family=Montserrat&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&family=Satisfy&family=The+Nautigal&family=Yellowtail&display=swap" rel="stylesheet">
+ 
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+  <!-- header starts here -->
+    <header id="blog-header">
+        <figure class="logo-figure">
+            <i class="fab fa-autoprefixer logo"></i>
+        </figure>
+        <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+        <nav aria-label="main-menu" id="menu" class="hidden">
+            <ul role="menu-bar" aria-label="main-menu">
+                <li role="none">
+                <a href="#" class="nav-link" role="menu-item">Home</a>
+               </li>
+               <li role="none">
+                <a href="#blog-about" class="nav-link" role="menu-item">About</a>
+               </li>
+               <li role="none">
+                <a href="#archives" class="nav-link" role="menu-item">Archives</a>
+               </li>
+               <li role="none">
+                <a href="#blog-posts" class="nav-link" role="menu-item">Blog post</a>
+               </li>
+               <li role="none">
+                <a href="#contact-section" class="nav-link" role="menu-item">Contact</a>
+               </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header ends here -->
+
+   <!-- main starts here -->
+   <main>
+     <!-- banner section starts here -->
+         <section id="blog-banner-section">
+             <article>
+                 <h1 class="banner-heading">Web Development</h1>
+                 <p class="banner-description text-justify">
+                    I believe web development is always fun.We should learn web development for a bright career.I have started learning web development 1 years ago and still learning.I started with HTML,CSS,Bootstrap and now I am learning Javascript.I must say web development demands more patience and consistency.
+                 </p>
+             </article>
+             <aside><img src="images/first l pic.jpg" class="banner-image" alt="first cover pic">
+             </aside>
+         </section>
+     <!-- banner section ends here -->
+
+     <!-- about me section starts here -->
+        <section id="blog-about" class="section-center">
+           <h2 class="section-heading text-white">About Me</h2>
+              <div class="card-container">
+                  <div class="card">
+                      <h3 class="card-header">Education</h3>
+                      <p class="card-description">
+                          It takes monumental improvement for us to change how we live our lives.Design is the way we access that improvement.We are never late from trying to reach our dream.Try hard,practice more and most importantly be consistent.
+                      </p>
+                      <button type="submit" class="card-btn btn">READ MORE</button>
+                  </div>
+                  <div class="card">
+                    <h3 class="card-header">Skills</h3>
+                    <p class="card-description">
+                        It takes monumental improvement for us to change how we live our lives.Design is the way we access that improvement.We are never late from trying to reach our dream.Try hard,practice more and most importantly be consistent.
+                    </p>
+                    <button type="submit" class="card-btn btn">READ MORE</button>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-header">Experiences</h3>
+                    <p class="card-description">
+                        It takes monumental improvement for us to change how we live our lives.Design is the way we access that improvement.We are never late from trying to reach our dream.Try hard,practice more and most importantly be consistent.
+                    </p>
+                    <button type="submit" class="card-btn btn">READ MORE</button>
+                </div>
+            </div>
+        </section>
+       <!-- about me section ends here -->
+
+        <!-- archives section starts here -->
+           <section id="archives" class="section-center">
+            <h2 class="section-heading">Archives</h2>
+              <div class="archives-container">
+                  <ul class="archives-container-lists">
+                     
+                    <li class="archives-container-list">
+                        <img src="images/img1.jpg" alt="image1" class="archives-image">
+                    </li>
+                    <li class="archives-container-list">
+                        <img src="images/img2.jpg" alt="image2" class="archives-image">
+                    </li>
+                    <li class="archives-container-list">
+                        <img src="images/img3.jpg" alt="image3" class="archives-image">
+                    </li>
+                    <li class="archives-container-list">
+                        <img src="images/img 4.jpg" alt="image4" class="archives-image">
+                    </li>
+                    <li class="archives-container-list">
+                        <img src="images/img 5.jpg" alt="image1" class="archives-image">
+                    </li>
+
+                  </ul>
+              </div>
+           </section>
+
+    <!-- archives section ends here -->
+
+    <!-- blog posts section startss here -->
+       <section id="blog-posts" class="section-center">
+        <h2 class="section-heading blog-posts-heading">Blog posts</h2>
+          
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+                <img src="images/img7.jpg" alt="laptop-image" class="blog-image">
+            </aside>
+
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog-1</h2>
+                 <h3 class="blog-sub-heading">Sub-heading</h3>
+                  <p class="blog-description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptate, consequuntur consequatur quod, provident explicabo assumenda molestias omnis voluptates deserunt fugit illo optio amet facere?
+                  </p>
+
+                  <button type="submit" class="blog-btn btn">Read more</button>
+            </article>
+        </div>
+
+
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+                <img src="images/img2.jpg" alt="laptop-image" class="blog-image">
+            </aside>
+
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog-2</h2>
+                 <h3 class="blog-sub-heading">Sub-heading</h3>
+                  <p class="blog-description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptate, consequuntur consequatur quod, provident explicabo assumenda molestias omnis voluptates deserunt fugit illo optio amet facere?
+                  </p>
+
+                  <button type="submit" class="blog-btn btn">Read more</button>
+            </article>
+        </div>
+
+
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+                <img src="images/img 4.jpg" alt="laptop-image" class="blog-image">
+            </aside>
+
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog-3</h2>
+                 <h3 class="blog-sub-heading">Sub-heading</h3>
+                  <p class="blog-description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptate, consequuntur consequatur quod, provident explicabo assumenda molestias omnis voluptates deserunt fugit illo optio amet facere?
+                  </p>
+
+                  <button type="submit" class="blog-btn btn">Read more</button>
+            </article>
+        </div>
+       </section>
+    <!-- blog posts section ends here -->
+
+    <!-- contact section starts here  -->
+       <section id="contact-section" class="section-center">
+        <h2 class="section-heading blog-posts-heading text-white">Contact-me</h2> 
+          <form action="" id="contact-form">
+            <div class="form-control">
+                <label for="Name">Name</label>
+              <input type="text" id="Name" required  autocomplete="Name">
+           </div>
+
+
+           <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="Email" required  autocomplete="email">
+           </div>
+           
+           
+           <div class="form-control">
+            <label for="message">Message</label>
+             <textarea name="message" id="message"></textarea>
+           </div>
+
+
+           <div class="form-control form-btn-field">
+           <button type="submit" class="btn contact-btn">Submit</button>
+           </div>
+
+          </form>
+        </section>
+    <!-- contact section ends here  -->
+
+    </main>
+    <!-- main ends here -->
+
+    <!-- footer section starts here -->
+      <footer>
+        <p class="copyright-text">
+            Copyright &copy; By Sheuli Akter.All rights reserved.
+        </p>
+
+        <nav aria-label="footer-menu">
+            <ul role="menu-bar2" id="menubar2" aria-label="footer-menu">
+
+                <li role="none">
+                <a href="#" target="blank" class="nav-link" role="menu-item"><i class="fas fa-arrow-up footer-icon"></i></a>
+               </li>
+               <li role="none">
+                <a href="https://www.facebook.com/sheuliakter.shathy" target="blank" class="nav-link" role="menu-item"><i class="fab fa-facebook footer-icon"></i></a>
+               </li>
+               <li role="none">
+                <a href="https://www.github.com/SheuliAkterShathy" target="blank"class="nav-link" role="menu-item"><i class="fab fa-github footer-icon"></i></a>
+               </li>
+               <li role="none">
+                <a href="https://www.fa-linkedin.com/SheuliAkterShathy"target="blank" class="nav-link" role="menu-item"><i class="fab fa-linkedin footer-icon"></i></a>
+               </li>
+               
+            </ul>
+        </nav>
+      </footer>
+    <!-- footer section ends here -->
+
+  <script src="./scripts/index.js"></script>
+
+</body>
+</html>
